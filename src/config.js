@@ -28,8 +28,8 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
-    layersOrder: [{ name: "Background" }, { name: "Bodies" }, { name: "Faces" }, { name: "Hair" }],
+    growEditionSizeTo: 50,
+    layersOrder: [{ name: "Background" }, { name: "Bodies" }, { name: "Faces" }, { name: "Tops" }, { name: "Hair" }, { name: "Accesories" }],
   },
 ];
 
