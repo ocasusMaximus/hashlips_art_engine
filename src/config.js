@@ -28,8 +28,8 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 50,
-    layersOrder: [{ name: "Background" }, { name: "Bodies" }, { name: "Faces" }, { name: "Tops" }, { name: "Hair" }, { name: "Accesories" }],
+    growEditionSizeTo: 20,
+    layersOrder: [{ name: "Background" }, { name: "Skin" }, { name: "Face" }, { name: "Cloths" }, { name: "Hair" }, { name: "Accesories" }],
   },
 ];
 
@@ -38,8 +38,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 1920,
-  height: 1920,
+  width: 1080,
+  height: 1080,
 };
 
 const gif = {
